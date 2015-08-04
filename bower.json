@@ -1,0 +1,19 @@
+{
+  "name": "Blog-Site",
+  "version": "0.0.0",
+  "authors": [
+    "Vinder Ornitier <ornitier62@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "bourbon": "~4.2.3"
+  }
+}

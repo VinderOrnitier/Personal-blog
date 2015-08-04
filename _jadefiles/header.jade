@@ -1,0 +1,25 @@
+mixin nav-content()
+	ul
+		li
+			a(href="#about") About
+		li
+			a(href="#resume") Resume
+		li
+			a(href="#tolls") Tolls
+		li
+			a(href="#works") My works
+		li
+			a(href="#contacts") Contacts
+.mobil-nav
+	+nav-content()
+
+header
+	.header-positon
+		h1.logo Vinder Ornitier
+
+		nav.side-nav
+			+nav-content()
+
+		a(href="mailto:vinder62@ornitier.com").email-link +Email me
+
+		.mobile-nav-toggle: span
